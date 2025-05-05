@@ -5,9 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.DAL.Repositories.Abstracts
+namespace Project.BLL.ManagerServices.Abstracts
 {
-	public interface IProductRepostiory : IRepository<Product>
+	public interface IAppUserProfileManager : IManager<AppUserProfile>
 	{
+
 	}
 }

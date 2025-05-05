@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace Project.DAL.Repositories.Abstracts
 {
-	public interface IAppUserRepository : IRepository<AppUser>
+	public interface IProductRepository : IRepository<Product>
 	{
-		Task<bool> AddUser(AppUser item);
 	}
 }
